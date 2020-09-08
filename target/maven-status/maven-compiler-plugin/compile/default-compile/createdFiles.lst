@@ -1,0 +1,4 @@
+com\example\ticker\TickerController.class
+com\example\ticker\service\CacheObject.class
+com\example\ticker\service\TickerObject.class
+com\example\ticker\TickerApplication.class
