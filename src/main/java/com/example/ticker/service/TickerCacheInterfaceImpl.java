@@ -71,7 +71,7 @@ public class TickerCacheInterfaceImpl implements TickerCacheInterface {
                             headers.set("Accept", MediaType.APPLICATION_JSON_VALUE);
 
                             UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl("http://localhost:8081/Counter/GetData")
-                                    .queryParam("count", 10);
+                                    .queryParam("count", 5);
 
                             HttpEntity<?> entity = new HttpEntity<>(headers);
 
